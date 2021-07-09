@@ -8,3 +8,5 @@ export const addCard = (req) => {
   req.body.modified_at = date
   return Card(req.body)
 }
+
+export const destroyCard = (req) => Card.deleteOne({ _id: req.params.id })

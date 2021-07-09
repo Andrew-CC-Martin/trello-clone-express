@@ -1,4 +1,5 @@
 import mongoose from "mongoose"
+import normalize from 'normalize-mongoose'
 
 export const cardSchema = new mongoose.Schema({
   title: {
@@ -17,5 +18,6 @@ export const cardSchema = new mongoose.Schema({
     required: true
   }
 })
+cardSchema.plugin(normalize)
 
 export const Card = mongoose.model("Card", cardSchema)

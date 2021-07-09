@@ -2653,6 +2653,11 @@ nopt@~1.0.10:
   dependencies:
     abbrev "1"
 
+normalize-mongoose@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/normalize-mongoose/-/normalize-mongoose-0.0.1.tgz#be0928bb97341c7e11c1c80e22b901b63c9c357d"
+  integrity sha512-yaEPhQKy3JWLhSzHbQFbLvJc/8t3w0gMHKsGtx4C/YK/kZuMZ1kjZtY9FgMzLra0Pj3btwCd5iRqeYKZL7C32A==
+
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
